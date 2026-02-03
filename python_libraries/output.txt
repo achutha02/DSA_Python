@@ -1,0 +1,5 @@
+3 6 7 9
+Point(first=7, second=9)
+7
+Nested(first=2, second=Point(first=7, second=9))
+9
