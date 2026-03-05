@@ -1,13 +1,11 @@
-n = int(input("Enter the number: "))
+import math
+
+n = int(input("Enter a number: "))
+
 count = 0
 
-if n == 0:
-    print(1)
-
-else:
-
-    while(n > 0):
-        n = n // 10
-        count += 1
-
-    print(count)
+for i in range(1, int(math.sqrt(n)) + 1):
+    is_prime = True
+    
+    
+    
