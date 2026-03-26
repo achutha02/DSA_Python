@@ -7,7 +7,7 @@ def prime(num, x):
     if x > num ** 0.5:
         return True
     
-    if num % x == 0:
+    elif num % x == 0:
         return False
     
     return prime(num, x+1)

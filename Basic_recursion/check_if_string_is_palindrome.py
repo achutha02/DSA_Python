@@ -5,7 +5,7 @@ def isPalindrome(s: str, left: int, right: int) -> bool:
     if left >= right:
         return True
     
-    if s[left] != s[right]:
+    elif s[left] != s[right]:
         return False
     
     return isPalindrome(s, left+1, right-1)
