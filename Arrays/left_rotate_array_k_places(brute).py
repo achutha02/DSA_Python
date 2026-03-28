@@ -1,8 +1,8 @@
 nums = [3, 4, 1, 5, 3, -5]
 
 n = len(nums)
-
 k = 8
+
 k = k % n
 
 temp = []
