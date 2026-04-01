@@ -17,3 +17,10 @@ for num in s1:
     Union.append(num)
 
 print(Union)
+
+
+"""
+Time Complexity: O( (M+N)log(M+N) ), at max set can store M+N elements {when there are no common elements and elements in nums1 , nums2 are distntict}. So Inserting M+N th element takes log(M+N) time. Upon approximation across inserting all elements in worst, it would take O((M+N)log(M+N) time.
+
+Space Complexity: O(M+N), considering space of Union Array.
+"""

@@ -23,3 +23,12 @@ rotateArray(nums, 8)
 for num in nums:
     print(num, end=' ')
 
+
+
+"""
+Time Complexity: O(N), , where N is the size of the array
+As three reversals are performed taking O(k), O(N-k) and O(N) time respectively.
+
+Space Complexity: O(1)
+"""
+

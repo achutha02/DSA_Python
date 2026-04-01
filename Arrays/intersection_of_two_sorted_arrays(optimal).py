@@ -18,3 +18,13 @@ while i < len(nums1) and j < len(nums2):
         j += 1
 
 print(ans_list)
+
+
+
+
+"""
+Time Complexity: O(M+N), where M and N are the lengths of the given arrays.
+This is because both the arrays are traversed once.
+
+Space Complexity: O(min(m, n)), extra space to store answer is not considered. worst case it can be O(N)
+"""

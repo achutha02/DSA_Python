@@ -20,3 +20,9 @@ Array:        1 ^ 2 ^   ^ 4 ^ 5
 --------------------------------
 Result:              3
 """
+
+
+"""
+Time complexity: O(N)
+Space Complexity: O(1)
+"""

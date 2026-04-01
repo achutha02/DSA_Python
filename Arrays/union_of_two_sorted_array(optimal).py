@@ -32,3 +32,11 @@ while j < m:
     j += 1
 
 print(union)
+
+
+
+"""
+Time Complexity: O(M+N), because both the arrays must be traversed once.
+
+Space Complexity: O(M+N), considering the space for returning the output, which in the worst case, can contain all the elements from both arrays
+"""

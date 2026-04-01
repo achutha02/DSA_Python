@@ -22,3 +22,11 @@ while i < len(nums1):
     i += 1
 
 print(ans_list)
+
+
+
+"""
+Time Complexity: O(MxN), where M is the length of nums1 and N is the length of nums2.
+
+Space Complexity: O(N), where N is size of nums2, extra space to store answer is not considered.
+"""

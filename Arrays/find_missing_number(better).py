@@ -16,3 +16,11 @@ for i in range(n+1):
 
 if not found_missing:
     print(-1)
+
+
+
+"""
+Time Complexity: O(N) + O(N) = O(2N)
+
+Space Complexity: O(N)
+"""

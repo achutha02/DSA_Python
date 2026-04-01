@@ -12,3 +12,10 @@ for i in range(n):
 
 if not found:
     print(-1)
+
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""

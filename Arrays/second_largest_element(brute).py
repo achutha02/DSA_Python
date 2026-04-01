@@ -14,3 +14,10 @@ for i in range(n-2, -1, -1):
         break
 
 print(secondLargest)
+
+
+
+"""
+Time Complexity: O(n * log n)
+Space complexity: O(1)
+"""

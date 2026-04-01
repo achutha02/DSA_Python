@@ -14,4 +14,9 @@ for i in range(len(nums)):
 
 print(largest_count)
 
-    
+
+
+"""
+Time Complexity: O(N)
+Space Complexity: O(1)
+"""

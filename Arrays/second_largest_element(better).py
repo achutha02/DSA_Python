@@ -15,3 +15,9 @@ for i in range(n):
         secondLargest = arr[i]
 
 print(secondLargest)
+
+
+"""
+Time Complexity: O(n) + O(n) = O(2n)
+Space Complexity: O(1)
+"""

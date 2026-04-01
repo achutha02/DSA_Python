@@ -9,3 +9,9 @@ for i in range(n):
         largest = nums[i]
 
 print(largest)
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""

@@ -9,3 +9,10 @@ nums[-1] = temp
 
 for num in nums:
     print(num, end=' ')
+
+
+
+"""
+Time Complexity: O(N)
+space Complexity: O(1)
+"""

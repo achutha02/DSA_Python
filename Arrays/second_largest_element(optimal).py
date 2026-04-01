@@ -22,4 +22,7 @@ else:
         print(second_largest)
 
 
-
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""

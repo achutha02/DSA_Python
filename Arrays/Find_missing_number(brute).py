@@ -16,3 +16,10 @@ for i in range(n):
 
 if not found_mising:
     print(-1)
+
+
+"""
+Time Complexity: O(N^2), where N is the size of the array. In the worst case i.e. if the missing number is N itself, the outer loop will run for N times, and for every single number the inner loop will also run for approximately N times. So, the total time complexity will be O(N^2).
+
+Space Complexity: O(1)
+"""

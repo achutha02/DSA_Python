@@ -11,3 +11,10 @@ for i in range(n):
 
 for num in nums:
     print(num, end=' ')
+
+
+"""
+Time Complexity: O(N)
+
+Space Complexity: O(1)
+"""
