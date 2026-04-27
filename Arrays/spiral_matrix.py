@@ -36,4 +36,5 @@ while top <= bottom and left <= right:
         left += 1
 
 print(ans)
-    
+
+
