@@ -38,3 +38,10 @@ while top <= bottom and left <= right:
 print(ans)
 
 
+
+
+"""
+Time Complexity:  O(MxN) since all the elements are being traversed once and there are total N x M elements ( M elements in each row and total N rows) so the time complexity will be O(N x M).
+
+Space Complexity:  O(1) as extra space to store answer is not considered.
+"""
