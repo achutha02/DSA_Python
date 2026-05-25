@@ -32,3 +32,11 @@ while left < right:
         right -= 1
 
 print(ans)
+
+
+
+"""
+Time Complexity: O(N) + O(N*logN), where N is size of the array. As the loop will run at most N times & sorting the array will take N * logN time complexity.
+
+Space Complexity: O(N), because of the external data structure created to store the array elements along with their indices
+"""

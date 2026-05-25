@@ -13,3 +13,12 @@ for i in range(len(nums)):
 
 if not is_true:
     print(-1,-1)
+
+
+
+
+"""
+Time Complexity: O(N 2), For using two nested loops to traverse the array, where N is the length of that array.
+
+Space Complexity: O(1), not using extra space.
+"""
