@@ -1,23 +1,30 @@
-nums = [-1, 0, 1, 2, -1, -4]
+nums = [1, -2, 3, 5, 7, 9]
 
 n = len(nums)
 
-triplet_set = set()
+ans = []
+
+st = set()
+
+target = 7
 
 for i in range(n):
-    hashset = set()
     for j in range(i+1, n):
-        third = -(nums[i] + nums[j])
-        
-        if third in hashset:
-            temp = [nums[i], nums[j], third]
+        hashset = set()
 
-            temp.sort()
-            triplet_set.add(tuple(temp))
-        
-        hashset.add(nums[j])
+        for k in range(j+1, n):
+            curr_sum = nums[i] + nums[j] + nums[k]
+            fourth = target - curr_sum
 
-ans = [list(triplet) for triplet in triplet_set]
+            if fourth in hashset:
+                temp = [nums[i], nums[j], nums[k], fourth]
+
+                temp.sort()
+                st.add(tuple(temp))
+            
+            hashset.add(nums[k])
+
+ans = [list(t) for t in st]
 print(ans)
 
 
