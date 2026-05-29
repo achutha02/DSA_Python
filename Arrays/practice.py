@@ -1,31 +1,18 @@
-nums = [1, -2, 3, 5, 7, 9]
+nums = [2, 3, 5, -2, 7, -4]
 
 n = len(nums)
 
-ans = []
-
-st = set()
-
-target = 7
+max_sum = 0
 
 for i in range(n):
-    for j in range(i+1, n):
-        hashset = set()
+    sum = 0
+    for j in range(n):
+        sum += nums[j]
 
-        for k in range(j+1, n):
-            curr_sum = nums[i] + nums[j] + nums[k]
-            fourth = target - curr_sum
+        if sum > max_sum:
+            max_sum = sum
 
-            if fourth in hashset:
-                temp = [nums[i], nums[j], nums[k], fourth]
-
-                temp.sort()
-                st.add(tuple(temp))
-            
-            hashset.add(nums[k])
-
-ans = [list(t) for t in st]
-print(ans)
+print(max_sum)
 
 
     

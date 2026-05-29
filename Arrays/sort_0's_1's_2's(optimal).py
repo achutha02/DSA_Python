@@ -22,3 +22,13 @@ while mid <= high:
         high -= 1
 
 print(nums)
+
+
+
+"""
+Time Complexity: O(N), where N is the size of the array, as there is single traversal of the array.
+
+Space Complexity: O(1), no extra space is used.
+"""
+
+# This is also called as Dutch National Flag Algorithm
