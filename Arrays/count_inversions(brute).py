@@ -10,3 +10,10 @@ for i in range(0, n-1):
             cnt += 1
 
 print(cnt)
+
+
+"""
+Time Complexity: O(N^2), for using 2 nested loops, where N is the size of the array.
+
+Space Complexity: O(1), no extra space is used.
+"""

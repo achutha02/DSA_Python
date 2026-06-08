@@ -53,3 +53,11 @@ inversion = mergeSort(nums, 0, n-1)
 print(inversion)
 
 print(nums)
+
+
+
+"""
+Time Complexity: O(NxlogN), where N is size of the given array. We are not changing the merge sort algorithm except by adding a variable to it. So, the time complexity is as same as the merge sort.
+
+Space Complexity: O(N), in the merge sort there is use a temporary array to store elements in sorted order.
+"""
