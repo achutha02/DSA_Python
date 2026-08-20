@@ -1,13 +1,13 @@
 nums = [5, 7, 7, 8, 8, 10]
-n = len(nums)
+target = 8
 
-x = 8
+n = len(nums)
 
 first = -1
 last = -1
 
 for i in range(n):
-    if nums[i] == x:
+    if nums[i] == target:
         if first == -1:
             first = i
 
